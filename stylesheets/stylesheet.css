@@ -33,6 +33,43 @@ main img{
 main img:hover{
 	left:0%;
 }
+article{
+	width:80%;
+	float:right;
+	background-color: rgb(255,255,255);
+	padding:0 40px 60px;
+	margin-bottom:40px;
+	position:relative;
+}
+
+article:before{
+	content:"";
+	display:block;
+	height:75px;
+	width:100%;
+	background-color: #FFFFFF;
+	position:absolute;
+	left:0;
+	top:-75px;
+	background-image: url(../images/mail.png);
+	background-repeat: repeat-x;
+}
+
+article h1{
+	font-size:28px;
+	margin-bottom:10px;
+}
+
+article p{
+	font-size:14px;
+	line-height: 1.4;
+	margin:10px 0;
+}
+
+article h2{
+font-size:20px;
+text-align:right;
+}
 /* HTML5 display definitions
    ========================================================================== */
 
