@@ -19,7 +19,20 @@ html {
 body {
   margin: 0;
 }
+main img{
+	width:20%;
+	border-radius:50%;
+	position:absolute;
+	left:15%;
+	padding:10px;
+	border: 1px solid #CCC;
+	transition:left 350ms ease-in-out;
+	background-color: #DDD; 
+}
 
+main img:hover{
+	left:0%;
+}
 /* HTML5 display definitions
    ========================================================================== */
 
