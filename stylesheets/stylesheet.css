@@ -70,6 +70,20 @@ article h2{
 font-size:20px;
 text-align:right;
 }
+
+nav ul li{
+	width:25%;
+	display:inline-block;
+	float:left;
+	text-align:center;
+	padding: 10px;
+	font-size:18px;
+	text-transform:uppercase;
+}
+
+nav ul li a{
+	color:rgb(98,129,165);
+	text-decoration: none;
 /* HTML5 display definitions
    ========================================================================== */
 
