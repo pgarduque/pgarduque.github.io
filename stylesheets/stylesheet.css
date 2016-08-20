@@ -231,6 +231,39 @@ samp {
   font-size: 1em;
 }
 
+.boxA, .boxB, .boxC{
+    width:384px;
+}
+.boxA h2,.boxB h2, .boxC h2{
+    font-weight:500;
+    font-size:3em;
+    text-align:center;
+    line-height:1.5em;
+}
+.boxA p, .boxB p,.boxC p{
+    padding: 0px 4px;/*CHANGE THE ATTRIBUTES FOR P TAGS HERE*/
+    color:#FFFFFF;
+}
+.boxA, .boxB {
+ float:left;
+ margin-right:24px;
+}
+.boxC{
+    float:left;
+}
+.box span {
+    background-color:#FFFFFF;
+    color:#006600;
+    display:block;
+    font-size:2em;
+    font-weight:600;
+    margin:0px 0px 12px 0px;
+    padding:1em;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+
 /* Forms
    ========================================================================== */
 
