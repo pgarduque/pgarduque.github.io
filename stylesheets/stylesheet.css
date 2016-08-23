@@ -543,7 +543,7 @@ aside#sidebar p.repo-owner a {
 }
 
 #downloads {
-  margin-bottom: 40px;
+  margin-bottom: 40px;.
 }
 
 a.button {
@@ -876,12 +876,12 @@ footer a:hover {
     display: inline;
     font-size: 13px;
   }
-  #main-content,
+  /*#main-content,
   aside#sidebar {
     float: none;
     width: 100% ! important;
   }
-  aside#sidebar {
+  /*aside#sidebar {
     min-height: 0;
     padding: 20px 0;
     margin-top: 20px;
@@ -890,7 +890,7 @@ footer a:hover {
   }
   aside#sidebar a.button {
     display: none;
-  }
+  }*/
   #main-content h1:before,
   #main-content h2:before,
   #main-content h3:before,
