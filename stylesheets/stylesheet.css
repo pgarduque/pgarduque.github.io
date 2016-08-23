@@ -231,6 +231,37 @@ samp {
   font-size: 1em;
 }
 
+/* BANNER SECTION BEGINS HERE */
+#banner {
+    overflow:hidden;
+    padding:125px 0px;
+    border-top:3px solid #FF0000;/*THIS COLOR IS RED*/
+    border-bottom:3px solid #FF0000;
+    background-size:cover;
+    background:url(../images/Banner_Photo.jpg) no-repeat center #FFFFFF;
+}
+#bannerAbout {
+    overflow:hidden;
+    padding:45px 0px;
+    border-top:3px solid #FF0000;/*THIS COLOR IS RED*/
+    border-bottom:3px solid #FF0000;/*THIS COLOR IS RED*/
+    background-color:#FFFFFF;
+    /*background:url('../images/banner_about.jpg') no-repeat center #8DC63F;*//*Single quotes used to illustrate usage in CSS*/
+}
+#bannerContact {
+    overflow:hidden;
+    padding:45px 0px;
+    border-top:3px solid #FF0000;/*THIS COLOR IS RED*/
+    border-bottom:3px solid #FF0000;/*THIS COLOR IS RED*/
+    background-color:rgb(255,255,0);/*THIS COLOR IS YELLOW*/
+    /*background:url('../images/banner_about.jpg') no-repeat center #8DC63F;*//*Single quotes used to illustrate usage in CSS*/
+}
+.bannerTitle {
+    color:#FF0000;
+    font-size:3em;
+}
+/* BANNER SECTION ENDS HERE */
+
 .boxA, .boxB, .boxC{
     width:384px;
 }
@@ -262,7 +293,6 @@ samp {
     text-align:center;
     text-transform:uppercase;
 }
-
 
 /* Forms
    ========================================================================== */
@@ -446,7 +476,7 @@ optgroup {
  * Remove most spacing between table cells.
  */
 
-table {
+/*table {
   border-spacing: 0;
   border-collapse: collapse;
 }
@@ -454,7 +484,7 @@ table {
 td,
 th {
   padding: 0;
-}
+}*/
 
 /* LAYOUT STYLES */
 body {
