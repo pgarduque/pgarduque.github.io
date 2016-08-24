@@ -526,7 +526,7 @@ header h2 {
   max-width: 100%;
 }
 
-/*aside#sidebar {
+aside#sidebar {
   float: right;
   width: 200px;
   min-height: 504px;
@@ -539,7 +539,7 @@ header h2 {
 aside#sidebar p.repo-owner,
 aside#sidebar p.repo-owner a {
   font-weight: bold;
-}*/
+}
 
 #downloads {
   margin-bottom: 40px;.
@@ -565,14 +565,14 @@ header a.button {
   right: 0;
   background: transparent url(../images/github-button.png) 0 0 no-repeat;
 }
-/*aside a.button {
+aside a.button {
   display: block;
   width: 138px;
   padding-left: 64px;
   margin-bottom: 20px;
   font-size: 21px;
   background: transparent url(../images/download-button.png) 0 0 no-repeat;
-}*/
+}
 
 code, pre {
   margin-bottom: 30px;
