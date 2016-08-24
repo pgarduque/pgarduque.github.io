@@ -770,9 +770,6 @@ dl dd {
   font-weight: 100;
 }
 
-.container{
-  display:block;
-}
 /*ABOUT SECTION*/
 #featured .align-left{
     float:left;
@@ -795,6 +792,9 @@ footer {
   background: transparent url('../images/hr.png') 0 0 no-repeat;
 }
 
+footer.container{
+  display:block;
+}
 footer a {
   color: #666;
 }
