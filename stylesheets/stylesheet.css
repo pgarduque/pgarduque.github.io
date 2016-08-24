@@ -803,7 +803,7 @@ footer a:hover {
 }
 
 #copyright {
-    overflow:hidden;
+    overflow:visible;
     padding:30px;
     border-top:2px dotted #FF9933;
     background-color:#000000;
