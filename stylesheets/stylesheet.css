@@ -465,7 +465,7 @@ body {
   background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
 }
 
-body.container{
+.container{
   padding-top:50px; 
   padding-bottom:50px;
   overflow:hidden;
