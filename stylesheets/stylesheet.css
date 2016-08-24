@@ -802,7 +802,7 @@ dl dd {
 }
 
 .container{
-  display:inline-block;
+  display:none;
 }
 
 footer {
