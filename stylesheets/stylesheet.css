@@ -794,6 +794,7 @@ footer {
 
 footer.container{
   display:block;
+  text-align: center;
 }
 footer a {
   color: #666;
@@ -828,6 +829,29 @@ footer a:hover {
   clear: both;
   visibility: hidden;
   content: '.';
+}
+
+/*Custom Programming*/
+.fa {
+    background-color:#FFFFFF;
+    border:3px solid #FF0000;
+    border-radius:210px;
+    font-size:2em;
+    margin:13px;
+    color:#000000;
+    height:28px;
+    width:28px;
+    padding:10px;
+}
+.fa-facebook{
+    background-color:#0C516E;
+}
+.fa-twitter{
+    background-color:#8CA6D9;
+}
+.fa-instagram{
+    background-color:#FF0000;
+    border:3px solid #FFFFFF;
 }
 
 .clearfix {display: inline-block;}
