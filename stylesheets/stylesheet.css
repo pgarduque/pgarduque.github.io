@@ -468,8 +468,9 @@ body {
 body.container{
   padding-top:50px; 
   padding-bottom:50px;
-  border: hidden;
-
+  overflow:hidden;
+  margin:0px auto;
+  width:1200px;
 }
 
 p {
