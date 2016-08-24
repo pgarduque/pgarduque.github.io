@@ -48,23 +48,23 @@ summary {
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
  */
 
-audio,
+/*audio,
 canvas,
 progress,
 video {
   display: inline-block; /* 1 */
-  vertical-align: baseline; /* 2 */
-}
+ /* vertical-align: baseline; /* 2 */
+/*}*/
 
 /**
  * Prevent modern browsers from displaying `audio` without controls.
  * Remove excess height in iOS 5 devices.
  */
 
-audio:not([controls]) {
+/*audio:not([controls]) {
   display: none;
   height: 0;
-}
+}*/
 
 /**
  * Address `[hidden]` styling not present in IE 8/9/10.
@@ -526,7 +526,7 @@ header h2 {
   max-width: 100%;
 }
 
-aside#sidebar {
+/*aside#sidebar {
   float: right;
   width: 200px;
   min-height: 504px;
@@ -539,7 +539,7 @@ aside#sidebar {
 aside#sidebar p.repo-owner,
 aside#sidebar p.repo-owner a {
   font-weight: bold;
-}
+}*/
 
 #downloads {
   margin-bottom: 40px;.
@@ -771,9 +771,19 @@ dl dd {
 }
 
 .container{
-  display:inline;
+  display:block;
 }
-
+/*ABOUT SECTION*/
+#featured .align-left{
+    float:left;
+    padding-top:20px;
+    width:384px;
+}
+#featured .align-right {
+    float:right;
+    width:775px;
+    /*font-size:1em;*/
+}
 footer {
   padding-top: 20px;
   padding-bottom: 30px;
