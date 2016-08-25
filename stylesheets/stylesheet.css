@@ -790,6 +790,16 @@ dl dd {
     width:775px;
     /*font-size:1em;*/
 }
+
+#featured .container{
+  padding-top:50px; 
+  padding-bottom:50px;
+  overflow:hidden;
+  margin:0px auto;
+  width:1200px;
+}
+
+}
 /*===== FOOTER SECTION =====*/
 footer {
   padding-top: 20px;
