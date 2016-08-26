@@ -872,11 +872,11 @@ footer a:hover {
     border:3px solid #FFFFFF;
 }
 
-/*.social{
+.social{
   text-align: center;
   padding: 0px;
   height: 100%;
-}*/
+}
 
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
