@@ -802,7 +802,6 @@ dl dd {
 }
 /*===== FOOTER SECTION =====*/
 footer {
-  margin-top: 25px;
   padding-top: 20px;
   padding-bottom: 30px;
   margin-top: 40px;
@@ -874,9 +873,11 @@ footer a:hover {
 }
 
 .social{
+  margin-top: 25px;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin:0px auto;
 }
 
 .clearfix {display: inline-block;}
