@@ -857,8 +857,8 @@ footer a:hover {
     font-size:2em;
     margin:13px;
     color:#000000;
-    height:28px;
-    width:28px;
+    height:auto;
+    width:auto;
     padding:10px;
 }
 .fa-facebook{
