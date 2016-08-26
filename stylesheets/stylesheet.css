@@ -874,8 +874,8 @@ footer a:hover {
 
 .social{
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 50px;
 }
 
 .clearfix {display: inline-block;}
